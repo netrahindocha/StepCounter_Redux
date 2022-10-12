@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import StepCounter from './components/StepCounter';
 
 function App() {
   return (
     <>
-    
+    <StepCounter/>
     </>
   );
 }
