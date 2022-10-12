@@ -1,1 +1,1 @@
-import addSteps, { resetSteps } from "./steps/Action";
+import { addSteps , resetSteps } from "./steps/Action";

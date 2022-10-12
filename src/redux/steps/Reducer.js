@@ -1,4 +1,4 @@
-import { ADD_STEPS, RESET_STEPS } from "./ActionConstant"
+import { ADD_STEPS , RESET_STEPS } from './Action'
 
 const initialState = {
     numOfSteps: 0
