@@ -1,4 +1,4 @@
-import ADD_STEPS from './ActionConstant'
+import { ADD_STEPS } from './ActionConstant'
 
 const addSteps = () => {
     return{
