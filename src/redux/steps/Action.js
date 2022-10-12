@@ -1,4 +1,4 @@
-import { ADD_STEPS } from './ActionConstant'
+import { ADD_STEPS, RESET_STEPS } from './ActionConstant'
 
 const addSteps = () => {
     return{
@@ -6,4 +6,10 @@ const addSteps = () => {
     }
 }
 
-export default addSteps
+export const resetSteps = () => {
+    return{
+        type: RESET_STEPS
+    }
+}
+
+export default addSteps;

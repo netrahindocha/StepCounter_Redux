@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/StepCounter.css'
 import { connect } from 'react-redux'
-import addSteps from '../redux/steps/Action'
+import addSteps, { resetSteps } from '../redux/steps/Action'
 
 
 function StepCounter(props) {
@@ -9,7 +9,7 @@ function StepCounter(props) {
     <div className='container'>
       <h1>You've walked {props.numOfSteps} steps today!</h1>
       <button id='add' onClick={props.addSteps}>Add a Step</button>
-      <button id='reset'>Reset Steps</button>
+      <button id='reset' onClick={props.resetSteps}>Reset Steps</button>
     </div>
   )
 }
@@ -22,7 +22,8 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return{
-    addSteps: () => {dispatch(addSteps())}
+    addSteps: () => {dispatch(addSteps())},
+    resetSteps: () => {dispatch(resetSteps())}
   }
 }
 
