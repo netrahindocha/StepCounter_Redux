@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/StepCounter_Redux/static/css/main.17f9d2e9.css",
+    "main.js": "/StepCounter_Redux/static/js/main.3ff60edc.js",
+    "static/js/787.471fe270.chunk.js": "/StepCounter_Redux/static/js/787.471fe270.chunk.js",
+    "index.html": "/StepCounter_Redux/index.html",
+    "main.17f9d2e9.css.map": "/StepCounter_Redux/static/css/main.17f9d2e9.css.map",
+    "main.3ff60edc.js.map": "/StepCounter_Redux/static/js/main.3ff60edc.js.map",
+    "787.471fe270.chunk.js.map": "/StepCounter_Redux/static/js/787.471fe270.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17f9d2e9.css",
+    "static/js/main.3ff60edc.js"
+  ]
+}
